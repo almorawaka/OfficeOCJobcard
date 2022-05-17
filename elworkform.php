@@ -55,7 +55,7 @@
 
 <!doctype html>
 <html lang="en">
-  
+<!-- include headder and footer  -->
 <?php include('./headder/headder.php'); ?>
 
 
@@ -272,7 +272,20 @@
     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
   </div>
   <div class="card-footer text-muted">
-    2 days ago
+
+  <form method="POST" class="row g-3">
+            <div class="col-md-6">
+                <label class="form-label" >Enter Job Number:</label>
+                <input type="text" name="id" placeholder="Job Number" class="form-control" required>
+            </div>
+
+   </form>
+   <a class="btn btn-primary" href="http://localhost/eldb/fpdf/" role="button">PRINT JOB</a>
+ 
+ 
+
+
+    card footer
   </div>
 </div>
 
